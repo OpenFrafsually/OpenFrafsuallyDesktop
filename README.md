@@ -8,10 +8,10 @@ Frafs Bench Viewer has been abandoned, much like Fraps, and it hasn't seen new c
 
 ### Some other concerns about Frafs Bench Viewer
 
-Frafs Bench Viewer is also licensed under the GPLv3. The FSF and others characterize the GPL as a license that gives users freedoms, I (AluminiumTech) take a different view that the GPL does not give users freedoms but rather takes away freedoms from developers and forces the FSF's ideologies onto others. 
+Frafs Bench Viewer is also licensed under the GPLv3. The FSF and others characterize the GPL as a license that gives users freedoms, I (AluminiumTech) take a different view that the GPL does not give users freedoms but takes away freedoms from developers and forces the FSF's ideologies onto others. 
 
 I (AluminiumTech) am not against Open Source, but the GPL has been used more recently among other things to punish Open Source and to force people into paying for a project to have an alternative version with either much less burdensome requirements or a proprietary license to avoid open source requirements altogether.
 
-Neither the idea of letting people profit off of hardwork and selling somebody else's work off as their own nor Companies or individuals dual licensing a project under GPL and a commercial proprietary license to make money are ideal and the OpenFrafsually project will find a solution so as to respect the work of contributors without forcing people into a greedy dystopia of choosing to sacrifice their code for the "greater good" or forking over cash to avoid this pointless sacrifice.
+Neither the idea of letting people profit off of hardwork and selling somebody else's work off as their own nor Companies or individuals dual licensing a project under GPL and a commercial proprietary license to make money are ideal and OpenFrafsually project will find a solution so as to respect the work of contributors without forcing people into a greedy dystopia of choosing to sacrifice their code for the "greater good" or forking over cash to avoid this pointless sacrifice.
 
 To this extent the project won't rely on any AGPL, GPL, LGPL, or MPL code and any code coming from an existing project licensed under one of these Licenses in a pull request will be categorically rejected.
