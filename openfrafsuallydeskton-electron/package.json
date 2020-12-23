@@ -1,0 +1,29 @@
+{
+  "name": "openfrafsuallydesktop",
+  "version": "0.1.0",
+  "description": "A fast, modern, and maintainable replacement for Frafs Bench Viewer.",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "jquery": "^3.5.1",
+    "chart.js": "^2.9.4",
+    "csv-reader": "^1.0.7",
+    "ffi-napi": "^3.1.0"
+  },
+  "devDependencies": {
+    "electron": "^11.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OpenFrafsually/OpenFrafsuallyDesktop.git"
+  },
+  "author": "AluminiumTech",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OpenFrafsually/OpenFrafsuallyDesktop/issues"
+  },
+  "homepage": "https://github.com/OpenFrafsually/OpenFrafsuallyDesktop#readme"
+}

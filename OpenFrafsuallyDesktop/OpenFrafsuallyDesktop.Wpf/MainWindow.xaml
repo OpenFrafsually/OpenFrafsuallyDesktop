@@ -5,8 +5,36 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:OpenFrafsuallyDesktop.Wpf"
         mc:Ignorable="d"
-        Title="OpenFrafsually" Height="450" Width="800">
-    <Grid>
+        Title="OpenFrafsually" Height="450" Width="800"
+        WindowStartupLocation="CenterOwner">
+    <Grid DragDrop.DragEnter="Grid_DragEnter">
+        <Menu x:Name="menuBar" Height="25" VerticalAlignment="Top" >
+            <MenuItem Header="_File">
+                <MenuItem x:Name="newHeader" Header="_New">
+                    <MenuItem x:Name="newOpenFrafsuallyProjectButton" Header="_New OpenFrafsually Project"/>
+                </MenuItem>
+                <MenuItem x:Name="filePreferencesButton" Click="filePreferencesButton_Click" Header="_Preferences"/>
+            
+            <MenuItem Header="_Import">
+                <MenuItem x:Name="importDataButton" Click="importDataButton_Click" Header="_Import Data"/>
+                <MenuItem x:Name="importOpenFrafsuallyProject" Click="importOpenFrafsuallyProject_Click" Header="_Import OpenFrafsually Project" />
+            </MenuItem>
+            <MenuItem x:Name="exportHeader" Header="_Export">
+                <MenuItem Header="_Export As Image">
+                    <MenuItem x:Name="exportAsJPEG" Click="exportAsJPEG_Click" Header="_Export As JPEG"/>
+                    <MenuItem x:Name="exportAsPNG" Click="exportAsPNG_Click" Header="_Export As PNG"/>
+                    <MenuItem x:Name="exportAsPDF" Click="exportAsPDF_Click" Header="_Export As PDF"/>
+                </MenuItem>
+                <MenuItem x:Name="exportDataHeader" Header="_Export As Data">
 
+                    </MenuItem>
+                </MenuItem>
+            </MenuItem>
+
+
+            <MenuItem Header="_Help">
+
+            </MenuItem>
+        </Menu>
     </Grid>
 </Window>
